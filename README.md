@@ -6,7 +6,7 @@ Shows big ass white text on a cozy smoked background.  Meant for sharing quick w
 ## Install & Use
 Follow these steps
 * **Download [bigtex.zip](support/bigtex.zip?raw=true)** and drop file contents somewhere handy
-* Add a hotkey to launch the app using AutoHotkey
+* Add a hotkey to launch the app, [here's how with AutoHotkey](http://noahcoad.com/post/646/create-a-global-hotkey-to-launch-a-program-with-autohotkey-on-windows)
 * Hit your hotkey and start typing.  ESC exits
 
 It does require [Microsoft .NET Framework 4](http://www.microsoft.com/en-us/download/details.aspx?id=17851).
