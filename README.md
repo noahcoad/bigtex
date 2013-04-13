@@ -5,7 +5,7 @@ Shows big ass white text on a cozy smoked background.  Meant for sharing quick w
 
 ## Install & Use
 Follow these steps
-* **Download [bigtext.zip](support/bigtex.zip?raw=true)** and drop file contents somewhere handy
+* **Download [bigtex.zip](support/bigtex.zip?raw=true)** and drop file contents somewhere handy
 * Add a hotkey to launch the app using AutoHotkey
 * Hit your hotkey and start typing.  ESC exits
 
