@@ -1,0 +1,8 @@
+:: Uses Take Command, http://jpsoft.com/forums/
+setlocal
+set build=%@quote[%@full[build]]
+pushd ..\bigtex\bin\Debug
+copy bigtex.exe bigtex.exe.config %build
+pushd %build
+"c:\Program Files\7-Zip\7z.exe" a ..\bigtex.zip *
+pauseconsole

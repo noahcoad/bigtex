@@ -1,0 +1,12 @@
+﻿created by Noah Coad on 2013-04-12 @noahcoad
+
+improvement ideas
+	backlog
+		save 'slide'
+		add setting: auto-paste clipboard
+		add setting: remember last used text
+	done
+		word-wrap text, when box is large enough to fill area, lock down its width to enable word wrap
+
+code snippets
+	{Binding ActualWidth, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, Mode=OneWay}
