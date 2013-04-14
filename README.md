@@ -3,6 +3,8 @@
 ## Description
 Shows big ass white text on a cozy smoked background.  Meant for sharing quick words w those special people around you.  For Windows my friends.
 
+Potentially handy for things like "Resuming meeting at 1pm", answering a question like 'what's your twitter?' you put up "[@noahcoad](http://twitter.com/noahcoad)", or copy/pasting some code.
+
 ## Install & Use
 Follow these steps
 * **Download [bigtex.zip](support/bigtex.zip?raw=true)** and drop file contents somewhere handy
@@ -16,6 +18,7 @@ Edit bigtex.config to adjust:
 
 * Font Name & Size
 * Put a black box behind the text
+* Change or removing the start up text
 * Opacity level of the smoke background
 
 ## Credits & History
