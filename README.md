@@ -18,8 +18,8 @@ Edit bigtex.config to adjust:
 * Put a black box behind the text
 * Opacity level of the smoke background
 
-## Credits
-One day I was using Mac OS X on my MacBook instead of my usual Windows 7, and accidentally hit some key that did this.  It looked nice, so I made this for Windows.
+## Credits & History
+One day I was using Mac OS X on my MacBook instead of my usual Windows 7, and accidentally hit some key that did this.  It looked nice, so I made this for Windows.  I wrote it at about 2am before bed, used it in a couple meetings in the morning, then tidied it up and posted on github while waiting to board my flight that afternoon.  That means it's just a simple little thing.  It was originally bigtext, then cut the t off the end in honor of [this guy](http://en.wikipedia.org/wiki/Big_Tex).
 
 ## Screenshot
 ![](support/imgs/2013-04-12_2023-small.png)
