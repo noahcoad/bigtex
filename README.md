@@ -9,7 +9,7 @@ Follow these steps
 * Add a hotkey to launch the app, [here's how with AutoHotkey](http://noahcoad.com/post/646/create-a-global-hotkey-to-launch-a-program-with-autohotkey-on-windows)
 * Hit your hotkey and start typing.  ESC exits
 
-It does require [Microsoft .NET Framework 4](http://www.microsoft.com/en-us/download/details.aspx?id=17851).
+It does require [Microsoft .NET Framework 3.5](http://www.microsoft.com/en-us/download/details.aspx?id=22).
 
 ## Options
 Edit bigtex.config to adjust:
