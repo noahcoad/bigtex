@@ -1,8 +1,23 @@
 :: Uses Take Command, http://jpsoft.com/forums/
 setlocal
+
+:: get the build directory
 set build=%@quote[%@full[build]]
+
+:: move to VS output 
 pushd ..\bigtex\bin\Debug
+
+:: copy bits to build dir
 copy bigtex.exe bigtex.exe.config %build
+
+:: move to build dir
 pushd %build
+
+:: package into zip
 "c:\Program Files\7-Zip\7z.exe" a ..\bigtex.zip *
-pauseconsole
+
+:: if on Noah's computer, also copy to tools directory
+if isdir "%[tools]\coad" copy * "%[tools]\coad"
+
+:: pause the console
+if "%@alias[pauseconsole]" ne "" pauseconsole
