@@ -30,6 +30,10 @@ namespace bigtex
 			txt.Focus();
 			txt.SelectAll();
 
+			// auto paste clipboard option
+			if (Settings.Default.AutoPasteClipboard && !String.IsNullOrEmpty(Clipboard.GetText()))
+				txt.Text = Clipboard.GetText();
+
 			// make sure we are activated
 			new Thread(new ThreadStart(() => { Thread.Sleep(300);
 			Dispatcher.Invoke(new Action(() => { this.Activate(); this.Focus(); })); })).Start();

@@ -17,5 +17,8 @@
     <Setting Name="FontName" Type="System.String" Scope="User">
       <Value Profile="(Default)">Arial Rounded MT Bold</Value>
     </Setting>
+    <Setting Name="AutoPasteClipboard" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
