@@ -7,9 +7,9 @@ Potentially handy for things like "Resuming meeting at 1pm", answering a questio
 
 ## Install & Use
 Follow these steps:
-1.  **Download [bigtex.zip](support/bigtex.zip?raw=true)** and drop file contents somewhere handy
-2.  Add a hotkey to launch the app, [here's how with AutoHotkey](http://noahcoad.com/post/646/create-a-global-hotkey-to-launch-a-program-with-autohotkey-on-windows)
-3.  Hit your hotkey and start typing.  ESC exits
+1. **Download [bigtex.zip](support/bigtex.zip?raw=true)** and drop file contents somewhere handy
+2. Add a hotkey to launch the app, [here's how with AutoHotkey](http://noahcoad.com/post/646/create-a-global-hotkey-to-launch-a-program-with-autohotkey-on-windows)
+3. Hit your hotkey and start typing.  ESC exits
 
 It does require [Microsoft .NET Framework 3.5](http://www.microsoft.com/en-us/download/details.aspx?id=22).
 
