@@ -28,7 +28,8 @@ namespace bigtex
 		{
 			// select all the text
 			txt.Focus();
-			txt.SelectAll();
+			if (Settings.Default.SelectText) txt.SelectAll();
+			else txt.Select(txt.Text.Length, 0);
 
 			// auto paste clipboard option
 			if (Settings.Default.AutoPasteClipboard && !String.IsNullOrEmpty(Clipboard.GetText()))
